@@ -1,0 +1,8 @@
+A open source(under LGPL) library for API/Function interception/hooking,
+overwrites the target function address with JUMP instrcution (0xE9) and 
+relative address of to-jump function
+
+
+-- How-to
+ 
+  include the chrom.h and follow the firefox hook example
